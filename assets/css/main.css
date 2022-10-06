@@ -1,0 +1,7 @@
+.copy{
+    text-decoration: none;
+    color: rgb(0,159,127);
+}
+.copy:hover{
+    color: rgb( 1,147,118);
+}
