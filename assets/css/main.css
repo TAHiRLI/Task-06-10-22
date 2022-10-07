@@ -1,28 +1,39 @@
-.text-green{
-    text-decoration: none;
-    color: rgb(0,159,127);
+.text-green {
+  text-decoration: none;
+  color: rgb(0, 159, 127);
 }
-.text-green:hover{
-    color: rgb( 1,147,118) !important;
+.text-green:hover {
+  color: rgb(1, 147, 118) !important;
 }
-
 
 /* blank html */
-nav{
-   box-shadow: 0 1px 2px 0 rgb(0 0 0/0.2);
+nav {
+  box-shadow: 0 1px 2px 0 rgb(0 0 0/0.2);
 }
-nav .dropdown svg path{
-    fill:  rgb(0,159,127); 
+#btn-apple path {
+  fill: rgb(0, 159, 127);
 }
-nav .dropdown-toggle::after{
-    color:  rgb(0,159,127);
-    font-size: 20px;
-    
+nav .dropdown-toggle::after {
+  color: rgb(0, 159, 127);
+  font-size: 20px;
 }
-.hover-green:hover{
-    background-color:rgb( 1,147,118) ;
+.hover-green:hover {
+  background-color: rgb(1, 147, 118);
 }
-nav .dropdown{
-    border: 2px solid rgb(229,231,235);
+nav .dropdown {
+  border: 2px solid rgb(229, 231, 235);
 }
 
+.nav-menu{
+  width: 200px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.05);
+}
+.nav-menu .dropdown-item {
+  column-gap: 0px !important;
+
+
+}
+.nav-menu .dropdown-item:hover,
+.nav-menu .dropdown-item:focus {
+  background-color: white !important;
+}
