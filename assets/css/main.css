@@ -1,10 +1,3 @@
-.text-green {
-  text-decoration: none;
-  color: rgb(0, 159, 127);
-}
-.text-green:hover {
-  color: rgb(1, 147, 118) !important;
-}
 
 /* blank html */
 nav {
@@ -20,6 +13,13 @@ nav .dropdown-toggle::after {
 .hover-green:hover {
   background-color: rgb(1, 147, 118);
 }
+.hover-gray:hover{
+  background-color: rgb(75, 85, 99);
+}
+.hover-primary:hover{
+  background-color: rgb(53 116 222)  !important;
+}
+
 nav .dropdown {
   border: 2px solid rgb(229, 231, 235);
 }
@@ -37,3 +37,65 @@ nav .dropdown {
 .nav-menu .dropdown-item:focus {
   background-color: white !important;
 }
+.text-green {
+  text-decoration: none;
+  color: rgb(0, 159, 127);
+}
+.text-green:hover {
+  color: rgb(1, 147, 118) !important;
+}
+
+button.btn:active {
+border-top: 2px solid  rgb(0, 159, 127) !important;
+border-bottom: 2px solid  rgb(0, 159, 127) !important;
+}
+#fb-btn:active{
+border-top: 2px solid  #0d6efd !important;
+border-bottom: 2px solid  #0d6efd !important;
+
+}
+#mobile-btn:active{
+  border-top: 2px solid   rgb(75, 85, 99) !important;
+  border-bottom: 2px solid   rgb(75, 85, 99) !important;
+  
+  }
+
+/* modal  */
+.login input:focus{
+  border: 1.5px solid rgb(1, 147, 118) !important;
+
+}
+.login button{
+  padding: .75rem 0;
+}
+#or::before ,#or::after{
+  content: '';
+  width: 208px;
+  height: 1px;
+  border: none;
+  outline:none;
+  background-color:silver;
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+
+}
+#or::after{
+  right: 0;
+}
+
+
+.register-link:hover{
+  text-decoration: none !important;
+}
+
+/* Shops html */
+
+.shop-info{
+  font-size: 14px;
+}
+
+
+
