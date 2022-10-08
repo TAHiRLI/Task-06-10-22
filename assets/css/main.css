@@ -150,6 +150,7 @@ border-bottom: 2px solid  #0d6efd !important;
 }
 aside{
   top: 12vh;
+
 }
 aside li{
   cursor: pointer;
@@ -168,5 +169,10 @@ transform: scale(0.6);
   transform: rotate(-180deg) scale(0.6);
 }
 main{
-  height: 200vh;
+  top: 100vh;
+  right: 0;
+  height: 400vh;
+}
+#services-sec{
+  height: 400vh;
 }
