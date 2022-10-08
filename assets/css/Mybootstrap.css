@@ -90,7 +90,7 @@
   background-color: var(--bs-gray-100) ;
 }
 .bg-gray-200{
-  background-color: var(--bs-gray-200) !important;
+  background-color: rgb(243, 244, 246) !important;
 }
 
 .bg-gray-700{
@@ -2031,7 +2031,7 @@ progress {
 .form-control:focus {
   color: #212529;
   background-color: #fff;
-  border-color: #86b7fe;
+  border-color: rgb(1, 147, 118);
   outline: 0;
 }
 .form-control::-webkit-date-and-time-value {
