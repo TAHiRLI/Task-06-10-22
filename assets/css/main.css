@@ -1,6 +1,7 @@
 
 /* blank html */
 nav {
+  height: 12vh;
   box-shadow: 0 1px 2px 0 rgb(0 0 0/0.2);
 }
 #btn-apple path {
@@ -124,4 +125,40 @@ border-bottom: 2px solid  #0d6efd !important;
 .shadow{
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.05);
 
+}
+.shadow-wide{
+  box-shadow:  rgba(0,0,0,0.05) 0px 21px 36px;
+  
+}
+
+/* index pages */
+.indexHeader{
+ 
+  background-image: url(https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F904%2Fgrocery.png&w=1920&q=75);
+  background-size: 100%;
+  background-position: top center;
+  height: 100vh;
+}
+.title{
+  font-weight: 700;
+  font-size: 3rem;
+}
+aside{
+  top: 12vh;
+}
+aside li{
+  cursor: pointer;
+}
+aside .accordion-button{
+  font-size: 14px;
+  
+}
+.accordion-button::after{
+transform: scale(0.6);
+}
+.accordion-button:not(.collapsed)::after{
+  transform: rotate(-180deg) scale(0.6);
+}
+main{
+  height: 200vh;
 }
