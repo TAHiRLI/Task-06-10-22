@@ -41,6 +41,7 @@ nav .dropdown {
 .nav-menu .dropdown-item:focus {
   background-color: white !important;
 }
+
 .text-green {
   transition: 0.3s;
   text-decoration: none;
