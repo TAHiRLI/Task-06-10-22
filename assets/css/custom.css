@@ -317,6 +317,7 @@
 .bg-dark-white{
     background-color: rgb(107,114,128) ;
 }
+
 .bg-blue{
   background-color:    #558985;
 }
@@ -385,3 +386,11 @@
     transition: 0.3s;
 }
 /* =============== */
+
+
+
+/* font sizes */
+
+.fs-14-px{
+    font-size: 14px;
+}

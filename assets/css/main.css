@@ -24,6 +24,9 @@ nav .dropdown-toggle::after {
 nav .dropdown {
   border: 2px solid rgb(229, 231, 235);
 }
+.bg-nav-light{
+  background-color: #fafafa;
+}
 
 .nav-menu{
   width: 200px;
@@ -39,6 +42,7 @@ nav .dropdown {
   background-color: white !important;
 }
 .text-green {
+  transition: 0.3s;
   text-decoration: none;
   color: rgb(0, 159, 127);
 }
@@ -152,6 +156,9 @@ aside li{
 aside .accordion-button{
   font-size: 14px;
   
+}
+aside a.fw-semibold{
+  font-weight: 400 !important;
 }
 .accordion-button::after{
 transform: scale(0.6);
