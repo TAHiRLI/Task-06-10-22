@@ -171,9 +171,7 @@ transform: scale(0.6);
 
 
 /* products section */
-#products-sec{
-  min-height: 120vh;
-}
+
 .last-price{
   color: rgb(156,163,173);
 }
