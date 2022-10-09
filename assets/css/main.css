@@ -60,17 +60,17 @@ nav .dropdown {
 }
 
 button.btn:active {
-border-top: 2px solid  rgb(0, 159, 127) !important;
-border-bottom: 2px solid  rgb(0, 159, 127) !important;
+border-top: 1px solid  rgb(0, 159, 127) !important;
+border-bottom: 1px solid  rgb(0, 159, 127) !important;
 }
 #fb-btn:active{
-border-top: 2px solid  #0d6efd !important;
-border-bottom: 2px solid  #0d6efd !important;
+border-top: 1px solid  #0d6efd !important;
+border-bottom: 1px solid  #0d6efd !important;
 
 }
 #mobile-btn:active{
-  border-top: 2px solid   rgb(75, 85, 99) !important;
-  border-bottom: 2px solid   rgb(75, 85, 99) !important;
+  border-top: 1px solid   rgb(75, 85, 99) !important;
+  border-bottom: 1px solid   rgb(75, 85, 99) !important;
   
   }
   
@@ -83,9 +83,9 @@ border-bottom: 2px solid  #0d6efd !important;
 .login button{
   padding: .75rem 0;
 }
-#or::before ,#or::after{
+/* #or::before ,#or::after{
   content: '';
-  width: 208px;
+  width: 180px;
   height: 1px;
   border: none;
   outline:none;
@@ -99,12 +99,12 @@ border-bottom: 2px solid  #0d6efd !important;
 }
 #or::after{
   right: 0;
-}
+} */
 
 
 .or::before ,.or::after{
   content: '';
-  width: 208px;
+  width: 180px;
   height: 1px;
   border: none;
   outline:none;
