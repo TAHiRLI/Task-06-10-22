@@ -1,7 +1,7 @@
 
 /* blank html */
 nav {
-  height: 12vh;
+  height: 80px;
   box-shadow: 0 1px 2px 0 rgb(0 0 0/0.2);
 }
 #btn-apple path {
@@ -140,8 +140,8 @@ border-bottom: 2px solid  #0d6efd !important;
 .indexHeader{
  
   background-image: url(https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F904%2Fgrocery.png&w=1920&q=75);
-  background-size: 100%;
-  background-position: top center;
+  background-size: cover;
+  background-position: center center;
   height: 100vh;
 }
 .title{
@@ -149,7 +149,7 @@ border-bottom: 2px solid  #0d6efd !important;
   font-size: 3rem;
 }
 aside{
-  top: 12vh;
+  top: 80px;
 
 }
 aside li{
@@ -201,4 +201,64 @@ transform: scale(0.6);
   color: white  ;
   background-color:rgb(0, 143, 114) !important;
 }
+.small-nav{
+  display: none;
+  box-shadow: 0 -2px 16px rgba(0, 0, 0, 0.05);
 
+}
+.small-nav .modal-dialog{
+  position: absolute;
+  margin: 0;
+  top: 80px;
+  left: 0;
+
+}
+.h-60px{
+  height: 60px;
+}
+.small-nav .modal-content{
+  width: 400px;
+  min-height: 88vh;
+  border-radius: 0;
+}
+.small-nav .btn-close{
+  top: 10px;
+  right: 10px;
+}
+.product-category-nav{
+  display: none !important;
+}
+
+#grocery .accordion-button svg{
+width: 60%;
+  
+}
+
+
+/* responsive  */
+@media (max-width:992px) {
+  .header-text{
+    display: none;
+    
+  }
+  .indexHeader{
+    height: 80px;
+  }
+  .small-nav{
+    display: block;
+  }
+
+  aside{
+    display: none;
+  }
+  nav div.dropdown{
+    display: none;
+  }
+  .product-category-nav{
+    display: flex !important;
+  }
+  
+
+
+  
+}

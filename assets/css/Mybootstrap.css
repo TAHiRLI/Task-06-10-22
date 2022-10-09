@@ -1240,7 +1240,7 @@ progress {
     --bs-gutter-y: 3rem;
   }
 }
-@media (min-width: 1100px) {
+@media (min-width: 992px) {
   .col-lg {
     flex: 1 0 0%;
   }
@@ -2909,7 +2909,7 @@ textarea.form-control-lg {
   --bs-btn-bg: #F3F4F6;
   --bs-btn-border-color: #6c757d;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: rgb(0,159,127);
+  --bs-btn-hover-bg: #F3F4F6;
   --bs-btn-hover-border-color: #565e64;
   --bs-btn-focus-shadow-rgb: 130, 138, 145;
   --bs-btn-active-color: #fff;
@@ -3883,7 +3883,7 @@ textarea.form-control-lg {
 .navbar-toggler:focus {
   text-decoration: none;
   outline: 0;
-  box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width);
+  box-shadow: 0px 2px 10px silver;
 }
 
 .navbar-toggler-icon {
