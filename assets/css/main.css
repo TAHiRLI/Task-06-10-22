@@ -235,6 +235,7 @@ width: 60%;
 }
 
 
+
 /* responsive  */
 @media (max-width:992px) {
   .header-text{
@@ -256,6 +257,9 @@ width: 60%;
   }
   .product-category-nav{
     display: flex !important;
+  }
+  #navbarSupportedContent{
+    display: none;
   }
   
 
