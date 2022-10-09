@@ -243,6 +243,24 @@ width: 60%;
   top: 60px;
   left: -400%;
 }
+
+/* Shops grid */
+.shops{
+  display:grid ;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+}
+@media (max-width:1200px) {
+  .shops{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width:772px) {
+  .shops{
+    grid-template-columns:  1fr;
+  }
+}
+
 /* responsive  */
 @media (max-width:992px) {
   .header-text{
