@@ -37,6 +37,11 @@ nav .dropdown {
 
 
 }
+
+.shadow-thin{
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.05);
+
+}
 .nav-menu .dropdown-item:hover,
 .nav-menu .dropdown-item:focus {
   background-color: white !important;
@@ -216,6 +221,7 @@ transform: scale(0.6);
   left: 0;
 
 }
+
 .h-60px{
   height: 60px;
 }
@@ -243,7 +249,27 @@ width: 60%;
   top: 60px;
   left: -400%;
 }
+.cart-btn{
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
 
+}
+#cartmodal .modal-dialog{
+  position: absolute;
+  right: 0;
+  top: -30px;
+}
+#cartmodal .modal-content{
+  width: 450px;
+  min-height: 100vh;
+}
+.cart-box{
+  height: 90vh;
+}
 /* Shops grid */
 .shops{
   display:grid ;
@@ -272,6 +298,9 @@ width: 60%;
   }
   .small-nav{
     display: block;
+  }
+  .cart-btn{
+    display: none !important;
   }
 
   aside{
